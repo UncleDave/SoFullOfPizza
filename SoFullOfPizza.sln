@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoFullOfPizza.Satisfactory.SaveDownloader", "SoFullOfPizza.Satisfactory.SaveDownloader\SoFullOfPizza.Satisfactory.SaveDownloader.csproj", "{32244042-8932-4D98-A7D0-E981C9B00EFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B688CAE-C85E-44F5-A9A0-3A586F9CA60E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{F37916B3-FE04-4439-A931-768A24147D4B}"
+	ProjectSection(SolutionItems) = preProject
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository Items", "Repository Items", "{86500AF2-5608-44E9-BA0B-82F75B694191}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32244042-8932-4D98-A7D0-E981C9B00EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32244042-8932-4D98-A7D0-E981C9B00EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32244042-8932-4D98-A7D0-E981C9B00EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32244042-8932-4D98-A7D0-E981C9B00EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F37916B3-FE04-4439-A931-768A24147D4B} = {2B688CAE-C85E-44F5-A9A0-3A586F9CA60E}
+	EndGlobalSection
+EndGlobal
