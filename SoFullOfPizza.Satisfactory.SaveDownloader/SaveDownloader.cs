@@ -13,14 +13,14 @@ public static class SaveDownloader
         ILogger log
     )
     {
-        var ftpHost = GetSetting("Ftp__Host");
-        var ftpUser = GetSetting("Ftp__User");
-        var ftpPassword = GetSetting("Ftp__Password");
-        var ftpFilePath = GetSetting("Ftp__FilePath");
+        var ftpHost = GetSetting("Ftp:Host");
+        var ftpUser = GetSetting("Ftp:User");
+        var ftpPassword = GetSetting("Ftp:Password");
+        var ftpFilePath = GetSetting("Ftp:FilePath");
 
-        var blobStorageConnectionString = GetSetting("BlobStorage__ConnectionString");
-        var blobStorageContainerName = GetSetting("BlobStorage__ContainerName");
-        var blobStorageBlobName = GetSetting("BlobStorage__BlobName");
+        var blobStorageConnectionString = GetSetting("BlobStorage:ConnectionString");
+        var blobStorageContainerName = GetSetting("BlobStorage:ContainerName");
+        var blobStorageBlobName = GetSetting("BlobStorage:BlobName");
 
         var ftpClient = new AsyncFtpClient(ftpHost, ftpUser, ftpPassword);
 
